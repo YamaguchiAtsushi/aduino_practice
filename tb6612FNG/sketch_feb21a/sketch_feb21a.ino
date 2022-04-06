@@ -12,7 +12,7 @@ void loop() {
     //モーター正転
     digitalWrite(IN1,HIGH);
     digitalWrite(IN2,LOW);
-    analogWrite(PWM, 128);    
+    analogWrite(PWM, 64);    
     delay(2000);
 
     //モーターブレーキ
@@ -24,13 +24,13 @@ void loop() {
     //モーター逆転
     digitalWrite(IN1,HIGH);
     digitalWrite(IN2,LOW);
-    analogWrite(PWM, 130);    
+    analogWrite(PWM, 64);    
     delay(2000);
 
     //モーターストップ
     digitalWrite(IN1,LOW);
     digitalWrite(IN2,LOW);
-    analogWrite(PWM, 130);    
+    analogWrite(PWM, 64);    
     delay(1000);
 
    //モーター速度変化
